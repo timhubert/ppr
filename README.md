@@ -15,12 +15,11 @@ Docker-Images wurden in diesem Repository für entsprechende PPR-Projekt-Zwecke 
    docker-compose up -d
    ```
 4. http://localhost:8080, um auf die Apache Spark-Übersicht zu gelangen
-5. cd pi
-6. Erstellen eines Docker-Image, um unsere auszuführende Python-Datei dem Spark-Master mitzuteilen.
+5. Erstellen eines Docker-Image, um unsere auszuführende Python-Datei dem Spark-Master mitzuteilen.
    ```
-   docker build --rm -t spark-app .
+   docker build --rm -t spark-app keras/.
    ```
-7. Starten des in Schritt 6 erstellten Docker-Images mit dem Namen "my-spark-app".
+6. Starten des in Schritt 6 erstellten Docker-Images mit dem Namen "my-spark-app".
    ```
    docker run --name my-spark-app -e ENABLE_INIT_DAEMON=false --link spark-master:spark-master -d --net docker-spark_default          spark-app
    ```
