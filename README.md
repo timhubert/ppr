@@ -22,7 +22,7 @@ Docker-Images wurden in diesem Repository für entsprechende PPR-Projekt-Zwecke 
    docker-compose up -d
    ```
 4. http://localhost:8080, um auf die Apache Spark-Übersicht zu gelangen
-5. Anpassen der app.py. Link zum Spark-Master muss in der Datei angepasst werden.
+5. Anpassen der app.py im Ordner "Keras". Link zum Spark-Master muss in der Datei angepasst werden.
 6. Erstellen eines Docker-Image, um unsere auszuführende Python-Datei dem Spark-Master mitzuteilen.
    ```
    docker build --rm -t spark-app keras/.
