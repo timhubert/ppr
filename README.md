@@ -33,6 +33,9 @@ Docker-Images wurden in diesem Repository für entsprechende PPR-Projekt-Zwecke 
    ```
    Ist dieser gestartet, wird der Code in der Datei "app.py" dem Spark-Master übermittelt. Dieser zerstückelt den Code (RDD-      Datenstruktur) und verteilt diese auf die beim Master angemeldeten Spark-Worker.
 
+## Andere Anwendung auf Apache Spark ausführen
+Um eine eigene/andere Anwendung auszuführen, wird der Ordner "keras" kopiert und die Datei "app.py" mit der neuen Anwendung gefüllt. Danach muss noch die "requirements.txt" mit für die Anwendung benötigten Python-Bibliotheken editiert werden. Dabei werden alle in der "requirements.txt" stehenden Bibliotheken mit dem Befehl "pip" im Container installiert. Um die Anwendung nun zu starten, wird mit dem oben beschriebenen Schritt 6 weitergemacht. Hierbei muss der Pfad des Build-Befehl zum Ordner mit der neuen Anwendung angepasst werden (hier "keras/." -> "neueanwendung/.").
+
 ## Worker manuell starten
 Den Parameter "--name" im folgenden Befehl anpassen!
 ```
