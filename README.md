@@ -41,7 +41,7 @@ docker run --name spark-worker-2 --link spark-master:spark-master -e ENABLE_INIT
 
 ## Apache Spark-Container neustarten
 Es müssen alle unter "docker ps" aufgelisteten Container gestoppt und gelöscht werden (NICHT die Docker-Images).
-Ist dies ausgeführt, wird wieder mit Schritt 3 der Spark-Master und Spark-Worker gestartet. Mit Schritt 7 wird die bereits erstellte (Erstellt durch Schritt 6) Spark-App gestartet.
+Ist dies ausgeführt, wird wieder mit Schritt 3 der Spark-Master und Spark-Worker gestartet. Mit Schritt 7 wird die bereits erstellte (durch Schritt 6) Spark-App gestartet.
 
 ## Fehlerbehebungen
 ### Beim Start des Docker-Images kommt folgende Fehlermeldung:
