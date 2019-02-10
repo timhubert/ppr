@@ -2,8 +2,8 @@
 Projekt für Vorlesung Parallele Prozesse. 
 
 ## Fragestellung
-Beim Training von Neuronalen Netzwerken müssen sehr viele Gleitkommaoperationen ausgeführt werden. Durch den Einsatz von entsprechender Bibliotheken, wie TensorFlow kann die Berechnungen in ein Berechnungsgraphenüberführt werden. Somit lassen sich die Berechnungen gut parallelisieren. Diese Nebenläufigkeit beschränkt sich allerdings nur auf eng gekoppelte Multiprozessor-Systeme. Eine Verteilung über mehrere unabhängie Rechner erfolgt nicht. 
-Dieses Projekt zeigt eine Möglichkeit, wie dies möglich ist. Des Weiteren soll ein Blick auf den Aufwand im Bezug zu dem Nutzen geworfen werden.
+Beim Training von Neuronalen Netzwerken müssen sehr viele Gleitkommaoperationen ausgeführt werden. Durch den Einsatz von entsprechender Bibliotheken, wie TensorFlow, können die Berechnungen in ein Berechnungsgraphen überführt werden. Somit lassen sich die Berechnungen gut parallelisieren. Diese Nebenläufigkeit beschränkt sich allerdings nur auf eng gekoppelte Multiprozessor-Systeme. Eine Verteilung über mehrere unabhängige Rechner erfolgt nicht. 
+Dieses Projekt zeigt, wie dies ermöglicht werden kann. Des Weiteren soll ein Blick auf den Aufwand im Bezug zu dem Nutzen geworfen werden.
 
 ## Apache Spark-Projekt PPR
 
